@@ -1,7 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 
-const BASE_URL =
-  "https://expense-calculator-backend-git-main-areeb2016.vercel.app/api/";
+const BASE_URL = "http://localhost:5000/api/";
 
 const getHeaders = () => {
   const userData = JSON.parse(localStorage.getItem("userData"));
